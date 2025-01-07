@@ -77,6 +77,7 @@ NEXT_PUBLIC_ORG_ID=your_organization_id
 
 - Public routes are accessible to all users
 - Admin features require authentication through Clerk
+  - Route /login will take you to login to Clerk then select the settings icon to toggle to Admin
 - Admin access is controlled via the `CLERK_APPROVED_USER` environment variable
 - Future updates will include role-based access management
 
